@@ -1,13 +1,207 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Hany</title>
-	<h1>Welcome to Hany Sarduk's Website</h1>
+<title>HanySA</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+
+<style>
+#search_class
+{
+ color:grey;
+}
+.highlight
+{
+ color:red;
+ text-decoration:underline;
+ font-weight: bolder;
+}
+input.right {
+        float: right;
+      }
+.dropbtn {
+  background-color: #333;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+/*@import 'https://fonts.googleapis.com/css?family=Roboto:300,400,500';*/
+</style>
 </head>
 <body>
-<h2>Hany's Personal Site</h2>
-<p>This page will include links,essays,reviews,and other pages that show my work</p>
-<h2>A simple site using html,CSS,JS</h2>
-<p>A brief introduction to my career so far</p>
+<div id="searchBar">
+<!-- Header -->
+<div class="header">
+  <h1>Welcome to Hany's Website</h1>
+  <p><b>Movement</b><b>--Computer Science--</b><b>Literature</b></p></div>
+<!-- Navigation Bar -->
+<div class="navbar">
+  <!-- search box -->
+
+<a> <form id="searchForm" action="javascript:search();">
+   <div class="input-group">
+
+      <button id="go" class="btn btn-default" type="button" 
+              onclick="document.getElementById('searchForm').submit(); return false;">Search
+      </button>
+
+      <!-- searchItem; is the stuff you write in the search box  -->
+      <input type="text" id="searchItem" class="form-control" placeholder="Search/Filter">
+   </div>
+</form></a>
+  <!-- <a href="content/literature.html">Literature</a> -->
+  <a href="content/blog.html">Mini-Blog/Notes</a>
+  <!-- <a href="content/bjj.html">Brazillian-Jiu-Jitsu</a> -->
+  <a href="content/cs.html">Computer-Science</a>
+  <!-- <a href="content/mv.html">Movement-Research</a> -->
+  <!-- <a href="content/books.html">Books</a> -->
+  <!-- <a href="content/about.html">About</a> -->
+  <!-- <div class="topnav-right"> -->
+  <div class="dropdown">
+  <button class="dropbtn">Others</button>
+  <div class="dropdown-content">
+    <a href="content/books.html">Books</a>
+    <a href="content/literature.html">Lit</a>
+    <a href="content/bjj.html">Bjj</a>
+    <a href="content/mv.html">Mov</a>
+  </div>
+</div>
+  <div class="dropdown">
+  <button class="dropbtn">Contacts</button>
+  <div class="dropdown-content">
+  <a href="content/contact.html">Email Me</a>
+ </div>
+</div>
+</div>
+<!-- The flexible grid (content) -->
+<div class="row search-class">
+  <div class="side">
+    <h2>About Me:</h2>
+    <p>I like developing solutions to everyday problems. Part of which includes learning new ideas and concepts that help untangle previous faulty learning methods.</p>
+    <h2>List Of Projects:</h2>
+      <ol type="1">
+<li> Current Projects
+   <ul type="disc">
+    <li>An accountability System
+    <li>A personal website
+    <li>Rent-for-Leb using Flask
+    <li>A coding game using pygame</li>
+   </ul>
+<li> Monthly Goals
+   <ul type="disc">
+   <li>A Complete Site
+    <li>Finish Video Editing
+    <li>Finish rent-leb and accountability system
+   </ul>
+<li> Future Project
+  <ul type="disc">
+    <li>A project using React
+    <li>OSCP certification
+    <li>A project using pytorch and tensorflow,A project to assess GAIT
+    </ul>
+</ol>
+    </p>
+    <br>
+    <br>
+    <dd>
+      <dt><h2>Currently learning these languages:</h2></dt>
+        <input type="checkbox" checked disabled>
+        <label style="background-color: aquamarine;">Python (For quick projects or scripts)</label><br>
+        <input type="checkbox" checked disabled>
+        <label style="background-color: burlywood;">JavaScript (HTML, CSS, Web stuff)</label><br>
+        <input type="checkbox" disabled>
+        <label>C++ and C (Performance)</label><br>
+    </dd></div>
+<!-- Main, here are there were the posts will happen -->
+<!-- <div id="graphic_board"> -->
+<div class="row" id="graphic_board">
+<div class="search_class">
+    <h2>Fourth Post</h2>
+    <h5>Date: Dec 30, 2020. 12:34pm</h5>
+    <p>Slowly but steadily updating this site. I'm getting closer to completing it.</p>
+    <h2>Third Post</h2>
+    <h5>Date: Dec 24, 2020. 9:57pm</h5>
+    <p>Basically it is better to create posts starting from here because this will always show on top.</p>
+    <h2>Second Post</h2>
+    <h5>Date: Nov 25, 2020</h5>
+    <p>This is when I started developing this whole site</p>
+    <h2>First Post</h2>
+    <h5>Friday Dec 4, 2020. 12:44 pm</h5>
+    <!-- I need to fix the id; maybe use a class instead  -->
+    <p>Almost done developing and writing this website.<br><br>
+    There are definetly tons of ideas on my mind right now.<br><br>
+    But this is the first draft and I'm proud of what I was able to accomplish in a very short period of time.<br><br>
+    Maybe it all looks so trivial but I know this is what gives me purpose in my life.<br><br>
+    Computer Science and technology in general are fields that require you to constantly grow and adapt as a human.<br><br>
+    So it is beautiful to witness this happening for the first time in my life.<br><br>
+    I'd recommend everyone to learn how to prgoram.<br><br>
+    It is an awesome tool to unleash your creative side.<br><br></p></div></div>
+</div>
+</div>
+<!-- Script for search box -->
+<script>
+// function scroll 
+function search() {
+ 
+   var name = document.getElementById("searchForm").elements["searchItem"].value;
+   var pattern = name.toLowerCase();
+   var targetId = "";
+   console.log(targetId)
+
+var divs = document.getElementsByClassName("search_class");
+for (var i = 0; i < divs.length; i++) {
+      var para = divs[i].getElementsByTagName("p");
+      for (var j = 0; j < para.length;j++){
+        var index = para[j].innerText.toLowerCase().indexOf(pattern);
+        if (index != -1){
+          targetId = divs[i].parentNode.id;
+          var searchpara=document.getElementById("graphic_board").innerHTML;
+          searchpara=searchpara.toString();
+          var new_pattern=new RegExp("("+name+")", "gi");
+          var new_text=searchpara.replace(new_pattern, "<span class='highlight'>"+pattern+"</span>");
+          document.getElementById(targetId).innerHTML=new_text
+          document.getElementById(targetId).scrollIntoView();
+          break;
+
+        }
+      }
+    }
+  }
+</script>  
+<!-- Footer -->
+<div class="footer">
+    <h2>Developed By Moi</h2>
+    </div>
 </body>
 </html>
