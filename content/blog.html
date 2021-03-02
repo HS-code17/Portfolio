@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mini Blog</title>
+	<link rel="stylesheet" href="../style.css">
+<style>
+  body {
+  margin: 0 auto;
+  max-width: 50em;
+}
+</style>
+</head>
+<body>
+			<!-- Header -->
+<div class="header">
+  <h1>Mini Blog</h1>
+</div>
+
+		<!-- Navigation Bar -->
+<div class="navbar">
+  <a href="../index.html">Home</a>
+</div>
+<!-- Posts go here -->
+<h2>First post</h2>
+<p>This will be my first post on this page, I just started this website.
+I'd like to add a JS script that keeps count of letters or words.</p>
+
+<p>A list of daily activities and a checkbox with them:</p>
+<!-- Create a checkbox with the activities I want to do on a daily basis
+Also, if possible create a way to save those activities in a txt or md file
+ -->
+<label for="myCheck">Reading:</label> 
+<input type="checkbox" id="myCheck" onclick="myFunction()">
+
+<p id="text" style="display:none">Activity is CHECKED!</p>
+
+
+<!-- My Experience with Languages -->
+<h2>Language and the importance of it</h2>
+<p>
+  
+  This is a post about english language; and the importance of grammar. Why is it important to learn proper grammar ? Need to fix this; post
+
+</p>
+
+<h2>Blogging Errors in different languages</h2>
+<p>
+  
+  This post will be dedicated into keeping track of errors I encounter and interesting things in different coding langauges;
+
+</p>
+
+<script>
+function myFunction() {
+  var checkBox = document.getElementById("myCheck");
+  var text = document.getElementById("text");
+  if (checkBox.checked == true){
+    text.style.display = "block";
+  } else {
+     text.style.display = "none";
+  }
+}
+</script>
+</body>
+</html>
