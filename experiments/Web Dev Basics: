@@ -1,0 +1,66 @@
+Web Dev Basics:
+
+HTML structure:
+
+1. https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Document_and_website_structure
+2. https://developer.mozilla.org/en-US/docs/Glossary/Information_architecture
+3. Next, try to sort all these content items into groups, to give you an idea of what parts might live together on different pages. This is very similar to a technique called Card sorting.
+4. Try carrying out the above exercise for a website of your own creation. What would you like to make a site about?
+
+Note: Save your work somewhere; you might need it later on.
+5. 
+
+
+
+CSS Flexbox
+
+Before the Flexbox Layout module, there were four layout modes:
+    Block, for sections in a webpage
+    Inline, for text
+    Table, for two-dimensional table data
+    Positioned, for explicit position of an element
+
+https://codecoda.com/en/blog/entry/css-layout-grid-vs-flexbox
+
+CSS Layout - Grid vs Flexbox
+
+A good layout makes users stay on a site because it makes important stuff 
+easily accessible and intuitive to find. A lousy layout frustrates users, 
+who leave because they can’t find what they are looking for.
+
+In web design, a layout is a term that explains how a website is 
+displayed on the screen. HTML 5 has quite a few elements that define 
+parts of a web page: header, nav, section, aside, article, and footer are 
+the significant distinctions in creating a layout. They constitute the four 
+major sections of a webpage - header/banner, navigation, content, and footer.
+
+1. having a good layout
+
+2. Correcting this layout occurs by using CSS Flexbox and CSS Grid.
+
+3. Flexbox; Two key terminologies in Flexbox are the main axis and the 
+cross axis.
+ A flex container's main axis is the primary axis along which these 
+flex items are laid out, and the cross-axis is perpendicular to it.
+
+
+
+4. CSS Layout GRID
+
+5. so there different ways of organizing content in CSS , first we require to understand 
+what that site contains
+
+
+
+Here’s a little more in-depth comparison: 
+in flexbox layout, the size of a cell (flex-item) is defined within the flex-item itself, and in the grid layout, 
+the size of a cell (grid-item) is defined inside the grid-container.
+
+I would advise, though, that you use CSS Grid for the overall layout of 
+the site and then Flexbox for the container's items. 
+CSS Grid also works perfectly for individual items, and it
+ accommodates nuances within the actual grid structure more than Flexbox. 
+ For example, grid template areas will map out the site's structure in a
+  few seconds, 
+and you can focus on aligning content as you deem fit.
+
