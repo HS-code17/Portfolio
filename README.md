@@ -27,7 +27,7 @@ My personal website
 
     [_] tables; 
 
-    [_] the ability to select several rows at once and editing them
+    [_] the ability to select several rows at once and edit them
 
 
 
