@@ -117,27 +117,134 @@ article, aside, footer {
 /* .navbar {
   background-color: aquamarine;
 } */
+.navbar {
+  /* TODO: responsive site */
+  /* flex is for responsive */
+  /* display: flex; */
+  justify-content: center;
+  background-color: #333;
+}
 .navbar, ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   width: 150px;
-  background-color: #f1f1f1;
+  /* background-color: #f1f1f1; */
   list-style-type: none;  
   font-weight: bold;  
   font-size: 20px; 
 }
-li a {
+/* Style the navigation bar links */
+.navbar a {
   display: block;
   color: rgba(119, 212, 32, 0.931);
+  /* padding: 14px 20px; */
   padding: 8px 16px;
   text-decoration: none;
+  text-align: center;
 }
 
-/* Change the link color on hover */
-li a:hover {
-  background-color: #fad390;
-  color: #fff;
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: white;
+  color: black;
+}
+
+/* Responsive */
+/* Column container */
+.row {  
+  display: flex;
+  flex-wrap: wrap;
+}
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+/* Main column */
+.main {
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+/* Fake image, just for this example */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+ /*The content of the sub-projects; */
+
+dl {
+  overflow: hidden;
+  background:yellow;
+  padding: 0;
+  margin: 0
+}
+
+dd {
+  margin-left: 1em;
+}
+
+dt {
+  font-weight: bold;
+  margin-bottom: .25em;
+  margin-top: .75em;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+
+/* The content for the list */
+/*dl {
+  overflow: hidden;
+  background: #ff0;
+  padding: 0;
+  margin: 0
+}
+dt {
+  float: left;
+  /* adjust the width; make sure the total of both is 100% */
+/*  background: #cc0;
+  padding: 0;
+  margin: 0
+}
+dd {
+  float: left;
+   adjust the width; make sure the total of both is 100% 
+  background: #dd0
+  padding: 0;
+  margin: 0
+}*/
+
+
+/*Table*/
+table, th, td {
+  border: 1px solid black;
+}
+th, td {
+  padding: 10px;
+}
+
+#t01 {  
+  background-color: #f1f1c1;
+}
+
+/*/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other 
+*/@media screen and (max-width: 700px) {
+  .row, .navbar {   
+    flex-direction: column;
+  }
 }
 
 /* .icon {
