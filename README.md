@@ -35,7 +35,7 @@ My personal website
 
 [_] basic css knowledge; padding, margins, fonts, size, width
 
-[_] basic JS knowledge;
+[_] basic JS knowledge:
     [_] understand functions and variables
 
     [_] understand how to call functions from browser
