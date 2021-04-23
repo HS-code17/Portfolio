@@ -7,7 +7,7 @@
 <style>
   body {
   margin: 0 auto;
-  max-width: 50em;
+  /* max-width: 50em; */
 }
 </style>
 </head>
@@ -38,16 +38,7 @@
 <h3>First post</h3>
 <p>This will be my first post on this page, I just started this website.
 I'd like to add a JS script that keeps count of letters or words.</p>
-
-<p>A list of daily activities and a checkbox with them:</p>
-<!-- Create a checkbox with the activities I want to do on a daily basis
-Also, if possible create a way to save those activities in a txt or md file
- -->
-<label for="myCheck">Reading:</label> 
-<input type="checkbox" id="myCheck" onclick="myFunction()">
-
-<p id="text" style="display:none">Activity is CHECKED!</p>
-
+<h3><a href="activity-log.html">Activity Logger</a></h3>
 
 <!-- My Experience with Languages -->
 <h3>Language and the importance of it</h3>
@@ -65,16 +56,8 @@ Also, if possible create a way to save those activities in a txt or md file
 </p>
 </article>
 </main>
-<script>
-function myFunction() {
-  var checkBox = document.getElementById("myCheck");
-  var text = document.getElementById("text");
-  if (checkBox.checked == true){
-    text.style.display = "block";
-  } else {
-     text.style.display = "none";
-  }
-}
-</script>
+<footer>
+  <p>©Copyright 2021 by Hany. All rights reserved.</p>
+</footer>
 </body>
 </html>

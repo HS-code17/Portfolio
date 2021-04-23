@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<head>
+	<title>Activities Page</title>
+	<link rel="stylesheet" href="../style.css">
+  <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+<style>
+  body {
+  margin: 0 auto;
+  /* max-width: 50em; */
+}
+</style>
+</head>
+
+<body>
+
+<!-- TODO: create a calender that would have these activities for each day/month -->
+<!-- Then you will be able to press on them it will simply log them into a nice graph -->
+<!--  -->
+    <table>
+        <th>Activities:</th>  
+       <td><label for="myCheck">Reading:</label>
+       <input type="checkbox" id="myCheck" onclick="myFunction()">
+       </td>
+       <td><label for="myCheck">Jogging:</label>
+         <input type="checkbox" id="myCheck" onclick="myFunction()">
+         </td> 
+       
+         <td><label for="myCheck">Coding:</label>
+           <input type="checkbox" id="myCheck" onclick="myFunction()">
+           </td> 
+       <td><p id="text" style="display:none">Activity is CHECKED!</p></td>
+       
+       </table>
+</body>
+<script>
+    function myFunction() {
+      var checkBox = document.getElementById("myCheck");
+      var text = document.getElementById("text");
+      if (checkBox.checked == true){
+        text.style.display = "block";
+      } else {
+         text.style.display = "none";
+      }
+    }
+    </script>
+</html>
