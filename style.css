@@ -1,3 +1,10 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap");
+:root {
+  --background-color: #2b2b2b;
+  --foreground-color: rgba(255, 255, 255, 0.7);
+  --foreground-color-active: white;
+  --transition: 250ms ease-in-out;
+} */
 /* || General setup */
 
 html, body {
@@ -17,7 +24,7 @@ body {
 
 /* || typography */
 
-h1, h2, h3 {
+h2, h3 {
   font-family: 'Sonsie One', cursive;
   color: #2a2a2a;
 }
@@ -28,6 +35,7 @@ p, input, li {
 }
 
 h1 {
+  font-family: ;
   font-size: 4rem;
   text-align: center;
   color: white;
@@ -49,48 +57,12 @@ p, li {
 }
 
 /* || header layout */
+/* header, h1{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+} */
 
-nav, article, aside, footer {
-  background-color: white;
-  padding: 1%;
-}
 
-nav {
-  height: 50px;
-  background-color: #ff80ff;
-  display: flex;
-  margin-bottom: 10px;
-}
-
-nav ul {
-  padding: 0;
-  list-style-type: none;
-  flex: 2;
-  display: flex;
-}
-
-nav li {
-  display: inline;
-  text-align: center;
-  flex: 1;
-}
-
-nav a {
-  display: inline-block;
-  font-size: 2rem;
-  text-transform: uppercase;
-  text-decoration: none;
-  color: black;
-}
-
-nav form {
-  flex: 1;
-  display: flex;
-  align-items: center;
-  height: 100%;
-  padding: 0 2em;
-}
-
+/* input form */
 input {
   font-size: 1.6rem;
   height: 32px;
@@ -131,7 +103,142 @@ aside li {
 footer {
   margin-top: 10px;
 }
-
-.navbar {
-  background-color: lightblue;
+article, aside, footer {
+  background-color: white;
+  padding: 1%;
 }
+
+/* navbar */
+/* nav, article, aside, footer {
+  background-color: white;
+  padding: 1%;
+} */
+/* TODO */
+/* .navbar {
+  background-color: aquamarine;
+} */
+.navbar, ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 150px;
+  background-color: #f1f1f1;
+  list-style-type: none;  
+  font-weight: bold;  
+  font-size: 20px; 
+}
+li a {
+  display: block;
+  color: rgba(119, 212, 32, 0.931);
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color on hover */
+li a:hover {
+  background-color: #fad390;
+  color: #fff;
+}
+
+/* .icon {
+  margin-right: 10px;
+}
+nav {
+  height: 50px;
+  background-color: #ff80ff;
+  display: flex;
+  margin-bottom: 10px;
+}
+
+nav ul {
+  padding: 0;
+  list-style-type: none;
+  flex: 2;
+  display: flex;
+}
+
+nav li {
+  display: inline;
+  text-align: center;
+  flex: 1;
+}
+
+nav a {
+  display: inline-block;
+  font-size: 2rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: black;
+}
+
+nav form {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding: 0 2em;
+} */
+
+  /* --color: #ba4aff;
+  grid-template-columns: min-content auto max-content;
+  grid-template-areas: "logo nav user"; */
+
+/* ul {  
+  list-style-type: none;  
+  font-weight: bold;  
+  font-size: 20px;  
+  }  
+li, a{
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  color: var(--foreground-color);
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+} */
+
+/* li, a::after{
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: calc( (100% + var(--slantness)) * -1);
+    top: 0%;
+    bottom: 0%;
+    width: calc(100% + var(--slantness));
+    clip-path: polygon(0% 0%, 100% 0%, calc(100% - var(--slantness)) 100%, 0% 100%);
+    background: var(--color);
+    opacity: 0;
+    transition: all var(--transition);
+} */
+
+/* nav > ul {
+  grid-area: nav;
+  place-self: center;
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: max-content;
+  gap: 0.5rem;
+  list-style: none;
+} */
+/* * {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+} */
+
+/* main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 1rem;
+  min-width: calc(750px + 2 * 1rem);
+  background: linear-gradient(322deg, #ba4aff, rgba(186, 74, 255, 0) 70%), linear-gradient(178deg, #008aff, rgba(0, 138, 255, 0) 70%), linear-gradient(24deg, #00ffc6, rgba(0, 255, 198, 0) 35%);
+  font-size: 1.7rem;
+  font-weight: 300;
+} */
