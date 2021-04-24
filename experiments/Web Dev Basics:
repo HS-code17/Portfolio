@@ -64,3 +64,11 @@ CSS Grid also works perfectly for individual items, and it
   few seconds, 
 and you can focus on aligning content as you deem fit.
 
+6. A table is a structured set of data made up of rows and columns (tabular data).
+
+7. Tables are very commonly used in human society, and have been for a long time, as evidenced by this US Census document from 1800:
+
+8. when not to use tables : 
+
+Tables are not automatically responsive: When you use proper layout containers (such as <header>, <section>, <article>, or <div>), their width defaults to 100% of their parent element. Tables on the other hand are sized according to their content by default, so extra measures are needed to get table layout styling to effectively work across a variety of devices
+

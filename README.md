@@ -4,6 +4,9 @@ My personal website
 
 ## TODO:
 
+
+### Due Date: April 30 
+
 [_] have a fully functioning navigation bar
 
 [_] add an icon/logo
@@ -19,7 +22,15 @@ My personal website
 
 [_] ability to log these activities into a graph
 
+[_] a little form for contacts
 
+[_] have bitcoin addresses 
+
+[_] have a support buy me coffee
+
+### Due Date: May 15
+
+[_] Add some new features
 
 ## Objectives || Learnig Outcomes:
 
