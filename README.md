@@ -9,7 +9,9 @@ My personal website
 
 [_] have a fully functioning navigation bar
 
-[_] add an icon/logo
+[_] declare the language; check older index
+
+[_] add an icon/logo + photo to contact form
 
 [_] make it responsive so you can view it on smaller screens'
 
@@ -27,6 +29,10 @@ My personal website
 [_] have bitcoin addresses 
 
 [_] have a support buy me coffee
+
+[_] fix contact icons put them in the footer
+
+[_] 
 
 ### Due Date: May 15
 
