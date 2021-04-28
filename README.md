@@ -7,9 +7,11 @@ My personal website
 
 ### Due Date: April 30 
 
-[_] have a fully functioning navigation bar
+[x] have a fully functioning navigation bar
 
-[_] declare the language; check older index
+[x] declare the language; check older index
+
+[x] added an about page
 
 [_] add an icon/logo + photo to contact form
 
@@ -31,6 +33,8 @@ My personal website
 [_] have a support buy me coffee
 
 [_] fix contact icons put them in the footer
+
+[_] search index, ability to search through pages and print out the the searched finding
 
 [_] 
 
