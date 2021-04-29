@@ -12,7 +12,7 @@ function search() {
          var index = para[j].innerText.toLowerCase().indexOf(pattern);
          if (index != -1){
            targetId = divs[i].parentNode.id;
-           var searchpara=document.getElementById("graphic_board").innerHTML;
+           var searchpara=document.getElementById("search_para").innerHTML;
            searchpara=searchpara.toString();
            var new_pattern=new RegExp("("+name+")", "gi");
            var new_text=searchpara.replace(new_pattern, "<span class='highlight'>"+pattern+"</span>");

@@ -36,14 +36,26 @@
     
            <!-- A Search form is another common non-linear way to navigate through a website. -->
     
-           <form>
+           <!-- <form>
              <input type="search" name="q" placeholder="Search query" style="width: 115px;">
              <input type="submit" value="Go!">
-           </form>
+           </form> -->
+           <a> <form id="searchForm" action="javascript:search();">
+            <div class="input-group">
+         
+               <button id="go" class="btn btn-default" type="button" 
+                       onclick="document.getElementById('searchForm').submit(); return false;">Search
+               </button>
+         
+               <!-- searchItem; is the stuff you write in the search box  -->
+               <input type="text" id="searchItem" class="form-control" placeholder="Search Posts">
+            </div>
+         </form></a>
            </ul>
     </div>
     <!-- It contains an article -->
-    <div class="row">
+    <div class="row" id="search_para">
+    <div class="search_class">
     <article>
       <h2>Posts</h2>
 
@@ -63,6 +75,7 @@
     A world outside your imagination. </p>
     </article>
   </main>
+</div>
 </div>
 <!-- Search  -->
 <script src="js/search.js"></script>
