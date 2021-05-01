@@ -18,6 +18,8 @@ My personal website
 
 [_] search button, have it clear by itself after a couple seconds or have a clear button
 
+[_] fixing css for search button
+
 [_] fix css;
 
 [_] add an icon/logo + photo to contact form
