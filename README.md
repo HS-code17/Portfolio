@@ -14,6 +14,8 @@ My personal website
 
 [x] added an about page
 
+[_] insert date automatically into default
+
 [_] search button, have it clear by itself after a couple seconds or have a clear button
 
 [_] fix css;
