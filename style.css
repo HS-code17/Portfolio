@@ -1,12 +1,3 @@
-/* @import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap");
-:root {
-  --background-color: #2b2b2b;
-  --foreground-color: rgba(255, 255, 255, 0.7);
-  --foreground-color-active: white;
-  --transition: 250ms ease-in-out;
-} */
-/* || General setup */
-
 html, body {
   margin: 0;
   padding: 0;
@@ -108,15 +99,6 @@ article, aside, footer {
   padding: 1%;
 }
 
-/* navbar */
-/* nav, article, aside, footer {
-  background-color: white;
-  padding: 1%;
-} */
-/* TODO */
-/* .navbar {
-  background-color: aquamarine;
-} */
 .navbar {
   /* TODO: responsive site */
   /* flex is for responsive */
@@ -151,38 +133,8 @@ article, aside, footer {
   color: black;
 }
 
-/* button */
+/* TODO button */
 
-/* .styled {
-  font-weight: bold;
-  border: 0;
-  line-height: 2.5;
-  padding: 0 20px;
-  font-size: 1.6rem;
-  text-align: center;
-  color:rgba(119, 212, 32, 0.931);
-  text-shadow: 1px 1px 1px #000;
-  border-radius: 10px;
-  background-color: #061D25;
-  background-image: linear-gradient(to top left,
-                                    rgba(0, 0, 0, .2),
-                                    rgba(0, 0, 0, .2) 30%,
-                                    rgba(0, 0, 0, 0));
-  box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
-              inset -2px -2px 3px rgba(0, 0, 0, .6);
-}
-
-.styled:hover {
-  background-color: white;
-}
-
-.styled:active {
-  box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
-              inset 2px 2px 3px rgba(0, 0, 0, .6);
-} */
-
-/* Responsive */
-/* Column container */
 .row {  
   display: flex;
   flex-wrap: wrap;
@@ -228,12 +180,6 @@ dt {
   margin-top: .75em;
 }
 
-/* Footer */
-/* .footer {
-  padding: 20px;
-  text-align: center;
-  background: #ddd;
-} */
 
 footer {
   background: #061D25;
@@ -254,28 +200,6 @@ footer a:hover {
   color: white;
 }
 
-/* The content for the list */
-/*dl {
-  overflow: hidden;
-  background: #ff0;
-  padding: 0;
-  margin: 0
-}
-dt {
-  float: left;
-  /* adjust the width; make sure the total of both is 100% */
-/*  background: #cc0;
-  padding: 0;
-  margin: 0
-}
-dd {
-  float: left;
-   adjust the width; make sure the total of both is 100% 
-  background: #dd0
-  padding: 0;
-  margin: 0
-}*/
-
 
 /*Table*/
 table, th, td {
@@ -295,106 +219,3 @@ th, td {
     flex-direction: column;
   }
 }
-
-/* .icon {
-  margin-right: 10px;
-}
-nav {
-  height: 50px;
-  background-color: #ff80ff;
-  display: flex;
-  margin-bottom: 10px;
-}
-
-nav ul {
-  padding: 0;
-  list-style-type: none;
-  flex: 2;
-  display: flex;
-}
-
-nav li {
-  display: inline;
-  text-align: center;
-  flex: 1;
-}
-
-nav a {
-  display: inline-block;
-  font-size: 2rem;
-  text-transform: uppercase;
-  text-decoration: none;
-  color: black;
-}
-
-nav form {
-  flex: 1;
-  display: flex;
-  align-items: center;
-  height: 100%;
-  padding: 0 2em;
-} */
-
-  /* --color: #ba4aff;
-  grid-template-columns: min-content auto max-content;
-  grid-template-areas: "logo nav user"; */
-
-/* ul {  
-  list-style-type: none;  
-  font-weight: bold;  
-  font-size: 20px;  
-  }  
-li, a{
-  text-decoration: none;
-  display: flex;
-  align-items: center;
-  padding: 0.5rem 1rem;
-  border-radius: 0.5rem;
-  text-decoration: none;
-  color: var(--foreground-color);
-  overflow: hidden;
-  position: relative;
-  z-index: 1;
-} */
-
-/* li, a::after{
-    content: "";
-    position: absolute;
-    z-index: -1;
-    left: calc( (100% + var(--slantness)) * -1);
-    top: 0%;
-    bottom: 0%;
-    width: calc(100% + var(--slantness));
-    clip-path: polygon(0% 0%, 100% 0%, calc(100% - var(--slantness)) 100%, 0% 100%);
-    background: var(--color);
-    opacity: 0;
-    transition: all var(--transition);
-} */
-
-/* nav > ul {
-  grid-area: nav;
-  place-self: center;
-  display: grid;
-  grid-auto-flow: column;
-  grid-auto-columns: max-content;
-  gap: 0.5rem;
-  list-style: none;
-} */
-/* * {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-} */
-
-/* main {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  min-height: 100vh;
-  padding: 1rem;
-  min-width: calc(750px + 2 * 1rem);
-  background: linear-gradient(322deg, #ba4aff, rgba(186, 74, 255, 0) 70%), linear-gradient(178deg, #008aff, rgba(0, 138, 255, 0) 70%), linear-gradient(24deg, #00ffc6, rgba(0, 255, 198, 0) 35%);
-  font-size: 1.7rem;
-  font-weight: 300;
-} */
