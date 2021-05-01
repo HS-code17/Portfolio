@@ -18,14 +18,17 @@ input[type=text], select, textarea {
   margin-top: 6px;
   margin-bottom: 16px;
   resize: vertical;
+
 }
 
 input[type=submit] {
-  background-color: black;
+  background-color: #333;
   color: rgba(119, 212, 32, 0.931);
   padding: 12px 20px;
   border: none;
   cursor: pointer;
+  font-size: 1.6rem;
+  text-align: center  ;
 }
 
 input[type=submit]:hover {
@@ -72,12 +75,12 @@ input[type=submit]:hover {
 <div class="navbar">
   <ul>
   <li><a href="../index.html">Home</a></li>
-  <li><a href="blog.html">Blog</a></li>
-  <li><a href="literature.html">Literature</a></li>
-  <li><a href="books.html">Books</a></li>
-  <li><a href="bjj.html">Brazillian Jiu Jitsu</a></li>
-  <li><a href="cs.html">Computer Science</a></li>
-  <li><a href="about.html">About</a></li>
+  <li><a href="../content/blog.html">Blog</a></li>
+  <li><a href="../content/literature.html">Literature</a></li>
+  <li><a href="../content/books.html">Books</a></li>
+  <li><a href="../content/bjj.html">Brazillian Jiu Jitsu</a></li>
+  <li><a href="../content/cs.html">Computer Science</a></li>
+  <li><a href="../content/about.html">About</a></li>
 	</ul>
 </div>
 
@@ -91,17 +94,10 @@ input[type=submit]:hover {
       <form action="/action_page.php">
         <label for="fname">Name</label>
         <input type="text" id="fname" name="name" placeholder="Your name..">
-        <!-- <label for="lname">Last Name</label>
-        <input type="text" id="lname" name="lastname" placeholder="Your last name.."> -->
-        <!-- <label for="country">Country</label>
-        <select id="country" name="country">
-          <option value="australia">Australia</option>
-          <option value="canada">Canada</option>
-          <option value="usa">USA</option>
-        </select> -->
         <label for="subject">Subject</label>
         <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
-        <input type="submit" value="Submit">
+        <button id="go" class="btn btn-default styled" type="button" >Submit
+      </button>
       </form>
     </div>
   </div>

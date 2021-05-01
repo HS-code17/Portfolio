@@ -45,7 +45,7 @@ My personal website
 
 [_] search index, ability to search through pages and print out the the searched finding
 
-[_] 
+[_] clear up all comments
 
 ### Due Date: May 15
 
