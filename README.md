@@ -5,6 +5,7 @@ My personal website
 ## TODO:
 
 
+
 ### Due Date: April 30 
 
 [x] have a fully functioning navigation bar
@@ -12,6 +13,10 @@ My personal website
 [x] declare the language; check older index
 
 [x] added an about page
+
+[_] search button, have it clear by itself after a couple seconds or have a clear button
+
+[_] fix css;
 
 [_] add an icon/logo + photo to contact form
 
