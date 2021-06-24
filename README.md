@@ -1,12 +1,7 @@
 # Portfolio
 My personal website
 
-
-## TODO:
-
-
-
-### Due Date: April 30 
+### Due Date: May 15 
 
 [x] have a fully functioning navigation bar
 
