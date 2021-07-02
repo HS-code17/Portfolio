@@ -1,7 +1,7 @@
 # Portfolio
 My personal website
 
-### Due Date: May 15 
+### Due Date: July 15 
 
 [x] have a fully functioning navigation bar
 
@@ -42,7 +42,7 @@ My personal website
 
 [_] clear up all comments
 
-### Due Date: May 15
+### Due Date: July 15
 
 [_] Add some new features
 
