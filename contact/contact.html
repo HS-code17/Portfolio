@@ -12,7 +12,6 @@
 
 /* Style inputs */
 input[type=text], select, textarea {
-  width: 100%;
   padding: 12px;
   border: 1px solid #ccc;
   margin-top: 6px;
@@ -89,43 +88,24 @@ input[type=submit]:hover {
   <div style="text-align:center">
     <h2>Get in touch!</h2>
   </div>
-  <div class="row">
-    <div class="column">
-      <form action="/action_page.php">
-        <label for="fname">Name</label>
-        <input type="text" id="fname" name="name" placeholder="Your name..">
-        <label for="fname">Email</label>
-        <input type="text" id="fname" name="email" placeholder="Your email..">
-        <label for="subject">Subject</label>
-        <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
-        <button id="go" class="btn btn-default styled" type="button" >Submit
-      </button>
-      </form>
-      <!-- <form method="post" action="send_mail.php">
-        <p>
-        <label>Name
-        <input type="text" name="first_name" required>
-        </label> 
-        </p>
-        <p>
-        <label>Email 
-        <input type="email" name="email_address">
-        </label>
-        </p>
-        <p>
-        <label>Comments
-        <textarea name="comments" maxlength="500"></textarea>
-        </label>
-        </p>
-        <p><button>Submit the form</button></p>
-        </form> -->
+    <form action="mailto:hanisarduk93@gmail.com"
+      method="POST"
+      enctype="multipart/form-data"
+      name="EmailForm">
+          Name:<br>
+          <input type="text" name="Contact-Name"><br><br>
+          Email:<br>
+          <input type="email" name="Contact-Email"><br><br> 
+          Message:<br> 
+          <textarea name="Contact-Message" rows="6″ cols="20″>
+          </textarea><br><br> 
+          <button type="submit" value="Submit">Send</button>
+    </form> 
     </div>
-  </div>
-</div> 
 </article>
 </main>
 <footer>
-  <a href="#"><i class="fa fa-google-plus"></i></a>
+  <!-- <a href="#"><i class="fa fa-google-plus"></i></a> -->
   <a href="https://github.com/hanycopes"><i class="fa fa-github"></i></a>
 </body>
 </html>

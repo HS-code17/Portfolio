@@ -9,7 +9,11 @@ My personal website
 
 [x] added an about page
 
-[_] insert date automatically into default
+[x] insert date automatically into default
+
+[ ] finish up the two JS projects
+
+[ ] automate the process of adding dates to each post
 
 [_] search button, have it clear by itself after a couple seconds or have a clear button
 
@@ -30,7 +34,7 @@ My personal website
 
 [_] ability to log these activities into a graph
 
-[_] a little form for contacts
+[x] a little form for contacts
 
 [_] have bitcoin addresses 
 
@@ -50,7 +54,7 @@ My personal website
 
 [_] html structure;
 
-    [_] tables; 
+    [x] tables; 
 
     [_] the ability to select several rows at once and edit them
 
